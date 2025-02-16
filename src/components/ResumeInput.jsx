@@ -53,7 +53,7 @@ const ResumeInput = ({ onAnalyze }) => {
 
     try {
       const response = await axios.post(
-        "https://api.openai.com/v1/chat/completions",
+        "/api/openai/chat/completions", // Proxy route instead of full URL      
         {
           model: "gpt-3.5-turbo",
           messages: [
