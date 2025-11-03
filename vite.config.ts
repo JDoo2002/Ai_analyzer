@@ -34,7 +34,7 @@ export default defineConfig({
   },
 
   // GitHub Pages deployment requires the correct base
-  base: '/ai-analyzer/', // Adjust to match your repo name
+  base: '/Ai_analyzer/', // Adjust to match your repo name
   
   define: {
     'process.env': {}
